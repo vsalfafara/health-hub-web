@@ -20,7 +20,7 @@ function ripple(el: any, binding: any) {
     this.append(circle);
     ev.stopPropagation();
     setTimeout(function () {
-      circle.parentNode.removeChild(circle);
+      circle.parentNode?.removeChild(circle);
     }, 400);
   };
 }
