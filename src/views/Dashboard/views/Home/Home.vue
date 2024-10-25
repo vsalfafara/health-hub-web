@@ -63,7 +63,7 @@
             <h3 class="text-lg">Recommendation</h3>
             <Button variant="ghost">View all</Button>
           </div>
-          <div class="flex flex-col gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
             <div
               v-ripple
               class="flex gap-2 hover:bg-slate-100 p-2 rounded-lg cursor-pointer"
@@ -116,6 +116,63 @@
                 </div>
               </div>
             </div>
+            <div
+              v-ripple
+              class="flex gap-2 hover:bg-slate-100 p-2 rounded-lg cursor-pointer"
+            >
+              <img
+                :src="Smoking"
+                class="h-20 w-20 object-cover object-center rounded-md"
+              />
+              <div class="flex flex-col gap-1 justify-between flex-1">
+                <div class="text-wrap">
+                  <p class="text-sm text-muted-foreground">Smoking</p>
+                  <h3 class="font-semibold">
+                    Government refuses to comment on dropping proposed outdoor
+                    smoking ban
+                  </h3>
+                </div>
+                <div class="flex gap-1 items-center">
+                  <Avatar class="h-6 w-6">
+                    <AvatarImage
+                      src="https://github.com/radix-vue.png"
+                    ></AvatarImage>
+                    <AvatarFallback>CN</AvatarFallback>
+                  </Avatar>
+                  <p class="text-muted-foreground text-sm">
+                    McKindey • Feb 27, 2024
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              v-ripple
+              class="flex gap-2 hover:bg-slate-100 p-2 rounded-lg cursor-pointer"
+            >
+              <img
+                :src="Accident"
+                class="h-20 w-20 object-cover object-center rounded-md"
+              />
+              <div class="flex flex-col gap-1 justify-between flex-1">
+                <div class="text-wrap">
+                  <p class="text-sm text-muted-foreground">Accident</p>
+                  <h3 class="font-semibold">
+                    4 killed in single-car crash in downtown Toronto
+                  </h3>
+                </div>
+                <div class="flex gap-1 items-center">
+                  <Avatar class="h-6 w-6">
+                    <AvatarImage
+                      src="https://github.com/radix-vue.png"
+                    ></AvatarImage>
+                    <AvatarFallback>CN</AvatarFallback>
+                  </Avatar>
+                  <p class="text-muted-foreground text-sm">
+                    McKindey • Feb 27, 2024
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </CardContent>
       </Card>
@@ -125,10 +182,17 @@
           <media-player
             title="Covid XEC: What are the symptoms of new virus strain?"
             src="https://www.youtube.com/watch?v=8i5lJrXcq6E"
+            class="mb-4"
           >
             <media-provider></media-provider>
             <media-video-layout></media-video-layout>
           </media-player>
+          <p>
+            A new strain of Covid emerging in the UK is spreading as cases
+            increase at a high rate, the UK Health Security Agency (UKHSA) has
+            said. Called XEC, the strain is a combination of the KS.1.1 and
+            KP.3.3 variants.
+          </p>
         </CardContent>
       </Card>
     </div>
@@ -168,6 +232,11 @@
           >
         </div>
       </Card>
+      <Card
+        class="flex justify-center items-center gap-4 col-span-4 md:col-span-2 lg:col-span-1 p-6"
+      >
+        <h1 class="text-muted-foreground text-2xl">More coming soon</h1>
+      </Card>
     </div>
   </div>
 </template>
@@ -179,6 +248,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, MessageCircle, Camera } from "lucide-vue-next";
 import Asthma from "@/assets/dashboard/asthma.jpg";
 import HeartAttack from "@/assets/dashboard/heartattack.jpg";
+import Smoking from "@/assets/dashboard/smoking.jpg";
+import Accident from "@/assets/dashboard/accident.jpg";
 import UCM from "@/assets/dashboard/ucm-logo-wht.svg";
 import Anura from "@/assets/dashboard/anura-logo.png";
 import Carousel from "@/components/ui/carousel/Carousel.vue";
