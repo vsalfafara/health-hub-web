@@ -51,7 +51,8 @@
                     <div class="flex flex-col">
                       <p class="text-xs text-muted">McKindey • 6 hours ago</p>
                       <h3 class="text-white">
-                        The heart: All you need to know
+                        Top Tips to Prevent a Heart Attack: A Guide to Heart
+                        Health
                       </h3>
                     </div>
                   </div>
@@ -101,7 +102,9 @@
               <div class="flex flex-col gap-1 justify-between flex-1">
                 <div>
                   <p class="text-sm text-muted-foreground">Alert</p>
-                  <h3 class="font-semibold">The heart: All you need to know</h3>
+                  <h3 class="font-semibold">
+                    Top Tips to Prevent a Heart Attack: A Guide to Heart Health
+                  </h3>
                 </div>
                 <div class="flex gap-1 items-center">
                   <Avatar class="h-6 w-6">
@@ -128,8 +131,8 @@
                 <div class="text-wrap">
                   <p class="text-sm text-muted-foreground">Smoking</p>
                   <h3 class="font-semibold">
-                    Government refuses to comment on dropping proposed outdoor
-                    smoking ban
+                    Quit Smoking for Good: Proven Strategies to Lower Your
+                    Dependency
                   </h3>
                 </div>
                 <div class="flex gap-1 items-center">
