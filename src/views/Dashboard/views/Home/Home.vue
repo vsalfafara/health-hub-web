@@ -153,14 +153,14 @@
               class="flex gap-2 hover:bg-slate-100 p-2 rounded-lg cursor-pointer"
             >
               <img
-                :src="Accident"
+                :src="Drinking"
                 class="h-20 w-20 object-cover object-center rounded-md"
               />
               <div class="flex flex-col gap-1 justify-between flex-1">
                 <div class="text-wrap">
-                  <p class="text-sm text-muted-foreground">Accident</p>
+                  <p class="text-sm text-muted-foreground">Drinking</p>
                   <h3 class="font-semibold">
-                    4 killed in single-car crash in downtown Toronto
+                    How do you know if your drinking is a problem?
                   </h3>
                 </div>
                 <div class="flex gap-1 items-center">
@@ -252,7 +252,7 @@ import { Phone, MessageCircle, Camera } from "lucide-vue-next";
 import Asthma from "@/assets/dashboard/asthma.jpg";
 import HeartAttack from "@/assets/dashboard/heartattack.jpg";
 import Smoking from "@/assets/dashboard/smoking.jpg";
-import Accident from "@/assets/dashboard/accident.jpg";
+import Drinking from "@/assets/dashboard/drinking.jpg";
 import UCM from "@/assets/dashboard/ucm-logo-wht.svg";
 import Anura from "@/assets/dashboard/anura-logo.png";
 import Carousel from "@/components/ui/carousel/Carousel.vue";
