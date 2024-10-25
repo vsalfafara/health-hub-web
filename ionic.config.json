@@ -1,0 +1,7 @@
+{
+  "name": "health-hub-web",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

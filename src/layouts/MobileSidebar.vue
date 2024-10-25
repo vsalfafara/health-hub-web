@@ -54,6 +54,10 @@
         <Button variant="ghost" class="w-full justify-start"
           ><Video color="#7c3aed" class="w-4 h-4 mr-2" />Video Calls</Button
         >
+        <Button variant="ghost" class="w-full justify-start"
+          ><img :src="Ucm" class="w-4 h-4 mr-2 object-cover" />Call a
+          Doctor</Button
+        >
         <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 mt-auto" />
         <Button color="#7c3aed" variant="ghost" class="w-full justify-start"
           ><CircleHelp color="#7c3aed" class="w-4 h-4 mr-2" />Help</Button
@@ -90,6 +94,7 @@ import SheetTitle from "@/components/ui/sheet/SheetTitle.vue";
 import SheetDescription from "@/components/ui/sheet/SheetDescription.vue";
 import SheetClose from "@/components/ui/sheet/SheetClose.vue";
 import Logo from "@/assets/icons/logo.png";
+import Ucm from "@/assets/icons/ucm.png";
 
 const routes = ref(sidebarRoutes.filter((route) => route.meta?.isPage));
 const router = useRouter();

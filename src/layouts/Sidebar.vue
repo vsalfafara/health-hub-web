@@ -37,7 +37,8 @@
         ><VideoIcon color="#7c3aed" class="w-4 h-4 mr-2" />Video Calls</Button
       >
       <Button variant="ghost" class="w-full justify-start"
-        ><img :src="Ucm" class="w-4 h-4 mr-2 object-cover" />Call UCM</Button
+        ><img :src="Ucm" class="w-4 h-4 mr-2 object-cover" />Call a
+        Doctor</Button
       >
       <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 mt-auto" />
       <Button variant="ghost" class="w-full justify-start"
